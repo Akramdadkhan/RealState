@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 import "./detail.css";
 
 export default function Detail() {
@@ -8,6 +8,11 @@ export default function Detail() {
 
   return (
     <>
+      <Link className="back-link" to="/">
+        <button className="back-btn">
+          <h3>Back</h3>
+        </button>
+      </Link>
       <div className="detailWrapper">
         <div className="detail">
           <div className="detailImg">

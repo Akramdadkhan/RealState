@@ -1,0 +1,26 @@
+.back-btn{
+    width: 10%;
+    
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: rgba(247, 41, 41, 0.938);
+    border: 0px;
+    border-radius: 30px;
+    color: white  ;
+    transition: 200ms;
+  
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+  }
+  .back-btn:hover{
+    background-color: rgba(247, 41, 41, 0.76);
+    transition: 300ms;
+   
+  
+  }
+  .Back-link{
+    display: inline-block;
+  }
