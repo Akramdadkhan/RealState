@@ -1,0 +1,20 @@
+.properties{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 15px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 992px){
+    .properties{
+        justify-content: space-evenly;
+    }
+}
